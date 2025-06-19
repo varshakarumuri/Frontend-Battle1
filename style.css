@@ -191,4 +191,20 @@ html {
     font-size: 0.9rem;
     background: #f0f0f0;
   }
+  .dark nav {
+    background: #1a1a1a;
+  }
+  
+  .dark nav a {
+    color: #f3f3f3;
+  }
+  
+  .dark .stats-section {
+    background: #111;
+  }
+  
+  .dark footer {
+    background: #1a1a1a;
+    color: #ddd;
+  }
   

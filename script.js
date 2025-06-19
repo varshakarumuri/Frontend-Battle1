@@ -1,5 +1,11 @@
 function toggleDarkMode() {
-  document.body.classList.toggle("dark");
+  const body = document.body;
+  body.classList.toggle("dark");
+
+  // Optional: Update toggle button text
+  const toggleButton = document.querySelector("nav button");
+  const isDark = body.classList.contains("dark");
+  toggleButton.textContent = isDark ? "🌙 / ☀️" : "☀️ / 🌙";
 }
 
 function hideLoader() {
@@ -25,5 +31,5 @@ function revealOnScroll() {
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", () => {
   hideLoader();
-  revealOnScroll(); 
+  revealOnScroll();
 });
