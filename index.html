@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Battle 2.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="hideLoader()">
+
+  <!-- Loader -->
+  <div id="loader">
+    <video autoplay muted loop playsinline>
+      <source src="assets/loader.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>Frontend Battle</h1>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#stats">Stats</a></li>
+      
+    </ul>
+    <button onclick="toggleDarkMode()">☀️ / 🌙</button>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="section reveal fullscreen-video">
+    <video autoplay muted loop playsinline>
+      <source src="assets/homepage.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-content">
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section reveal fullscreen-video">
+    <video autoplay muted loop playsinline>
+      <source src="assets/features-services.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-content">
+      <h3>Features & Services</h3>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonial-section section reveal">
+    <p class="subtitle">Customer Testimonials</p>
+    <h2 class="testimonial-title">Happy Sellers</h2>
+    
+    <video autoplay muted loop playsinline class="animated-video">
+      <source src="assets/testimonials.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Stats -->
+  <section id="stats" class="stats-section section reveal">
+    <h3>📊 Stats & Achievements</h3>
+    <p class="subtitle">Visualizing our growth and success</p>
+    <div class="gallery">
+      <img src="assets/cards.png" alt="Cards" />
+      <img src="assets/graph.png" alt="Graph" />
+      <img src="assets/stats.png" alt="Stats" />
+    </div>
+  </section>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
