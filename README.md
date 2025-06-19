@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Battle 2.0 – Round 1 Submission
 
 ## 🔗 Live Preview
@@ -20,3 +21,6 @@
 
 ## 🤖 AI Tools Used
 - Microsoft Copilot
+=======
+# Frontend-Battle1
+>>>>>>> 953aa3e655763eb13b13073f546a67993469d181
